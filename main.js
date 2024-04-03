@@ -1,7 +1,5 @@
 const inputEl = document.getElementById("inputUnit")
 const btnEl = document.getElementById("myBtn")
-const unit = document.getElementById('inputUnit').value
-const metricsEl = document.getElementById("metrics")
 const lenghtEl = document.getElementById("lenghtContent")
 const volumeEl = document.getElementById("volumeContent")
 const massEl = document.getElementById("massContent")
