@@ -17,9 +17,9 @@ function render() {
         const kilosToPounds = valor * 2.20462;
         const poundsToKilos = valor / 2.20462;
 
-        massEl.innerHTML = `${valor} kilos = ${meterToFeet.toFixed(2)} pounds | ${valor} pounds = ${feetToMeter.toFixed(2)} kilos`
-        lenghtEl.innerHTML = `${valor} meters = ${literToGallon.toFixed(2)} feet | ${valor} feet = ${gallonToLiter.toFixed(2)} meters`
-        volumeEl.innerHTML = `${valor} liters = ${kilosToPounds.toFixed(2)} gallons | ${valor} gallons = ${poundsToKilos.toFixed(2)} liters`
+        massEl.innerHTML = `${valor} kilos = ${kilosToPounds.toFixed(2)} pounds | ${valor} pounds = ${poundsToKilos.toFixed(2)} kilos`
+        lenghtEl.innerHTML = `${valor} meters = ${meterToFeet.toFixed(2)} feet | ${valor} feet = ${feetToMeter.toFixed(2)} meters`
+        volumeEl.innerHTML = `${valor} liters = ${literToGallon.toFixed(2)} gallons | ${valor} gallons = ${gallonToLiter.toFixed(2)} liters`
         
 }
 
